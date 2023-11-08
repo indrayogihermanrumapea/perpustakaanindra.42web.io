@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan SUKA BACA</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Perpustakaan SUKA BACA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="Project 1.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Project 1.html">Tentang Kami</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="layananDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Layanan
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="layananDropdown">
+                        <a class="dropdown-item" href="Project 1 (1).html" onclick="loadContent()">Peminjaman Buku</a>
+                        <a class="dropdown-item" href="Untitled-1.html">Perpanjangan dan Pengembalian Buku </a>
+                        <a class="dropdown-item" href="index (6).html">Daftar Anggota Perpustakaan</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Layanan Lainnya</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-5" id="content">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <header>
+        <h1>Selamat datang di Perpustakaan Indra</h1>
+    </header>
+    <nav style="text-align: center; margin-top: 20px;">
+        <a href="https://lib.ui.ac.id/#gsc.tab=0" style="text-decoration: none; color: #007BFF; margin: 10px; font-weight: bold;">Perpustakaan Universitas Indonesia</a>
+    </nav>
+    <div class="content">
+        <h2>Profil Perpustakaan</h2>
+        <img src="PROFILE.jpeg" alt="Perpustakaan Indra">
+        <p>
+            Gambar di atas adalah profil Perpustakaan Indra. Kami menyediakan koleksi buku yang beragam untuk semua kalangan. Perpustakaan kami, Perpustakaan Indra, adalah pusat pengetahuan dan sumber daya pembelajaran yang berkomitmen untuk menyediakan akses ke beragam koleksi buku, media digital, dan program-program khusus bagi komunitas kami. Dengan tim staf yang ramah dan pengetahuan yang mendalam, kami berupaya memberikan layanan terbaik kepada anggota kami, memfasilitasi pembelajaran, penelitian, dan pengembangan pribadi. Selain itu, kami juga menjadi tempat untuk berbagi minat dan hobi, serta berpartisipasi dalam kegiatan budaya dan literasi. Kami mengundang semua orang untuk menjadi bagian dari cerita kami, menjelajahi dunia pengetahuan, dan berkontribusi pada pertumbuhan budaya dan literasi di komunitas kita.
+        </p>
+    </div>
+    <div class="content">
+        <h2>Audio dan Video Mengenai Perpustakaan Indra</h2>
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="MUSIK.mp3" type="audio/mpeg">
+        </audio>
+
+        <h3>Video</h3>
+        <video controls width="480" height="270">
+            <source src="VIDEOPROFILE.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="content">
+        <h2>Tabel Bahan Buku</h2>
+        <table border="1" cellpadding="5" cellspacing="0" style="width: 100%;">
+            <tr>
+                <th>No</th>
+                <th>Judul Buku</th>
+                <th>Pengarang</th>
+                <th>Penerbit</th>
+                <th>Tahun Terbit</th>
+                <th>Jumlah Halaman</th>
+                <th>ISBN</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Harry Potter and the Philosopher's Stone</td>
+                <td>J.K. Rowling</td>
+                <td>Bloomsbury</td>
+                <td>1997</td>
+                <td>223</td>
+                <td>978-0747532743</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>To Kill a Mockingbird</td>
+                <td>Harper Lee</td>
+                <td>J. B. Lippincott & Co.</td>
+                <td>1960</td>
+                <td>281</td>
+                <td>978-0061120084</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>The Great Gatsby</td>
+                <td>F. Scott Fitzgerald</td>
+                <td>Charles Scribner's Sons</td>
+                <td>1925</td>
+                <td>180</td>
+                <td>978-0743273565</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>1984</td>
+                <td>George Orwell</td>
+                <td>Secker & Warburg</td>
+                <td>1949</td>
+                <td>328</td>
+                <td>978-0451524935</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="content">
+        <h2>Kelebihan HTML5</h2>
+        <p>HTML5 memiliki sejumlah kelebihan dibandingkan dengan HTML:</p>
+        <ul>
+            <li>Elemen semantik seperti &lt;header&gt;, &lt;nav&gt;, &lt;article&gt;, &lt;section&gt;, dan &lt;footer&gt; memungkinkan markup yang lebih tepat.</li>
+            <li>Elemen &lt;audio&gt; dan &lt;video&gt; memungkinkan penyisipan multimedia tanpa plugin tambahan.</li>
+            <li>LocalStorage memungkinkan penyimpanan data lokal untuk menyimpan preferensi pengguna atau riwayat bacaan.</li>
+            <li>Elemen &lt;canvas&gt; dan dukungan SVG untuk visualisasi data dan grafis interaktif.</li>
+            <li>API geolocation untuk layanan berbasis lokasi.</li>
+        </ul>
+        <p>Penerapannya dalam web Perpustakaan Indra mencakup penggunaan elemen &lt;audio&gt; dan &lt;video&gt; untuk koleksi multimedia, elemen semantik untuk struktur halaman yang lebih baik, penyimpanan lokal untuk data pengguna, dan elemen &lt;canvas&gt; atau SVG untuk visualisasi data.</p>
+    </div>
+    <div class="content">
+        <h2>About Us</h2>
+        <p>
+            <a href="https://wa.me/085292042057"><img src="https://logolook.net/wp-content/uploads/2021/06/Whatsapp-Logo.png" width="7%" alt="WhatsApp"></a>
+            <a href="https://instagram.com/indraaaaayh?igshid=OGQ5ZDc2ODk2ZA=="><img src="https://th.bing.com/th/id/R.03f40b67b63d9c1c1a5a792109bbc699?rik=8HhXk%2b5PP7XurQ&riu=http%3a%2f%2fpngimg.com%2fuploads%2finstagram%2finstagram_PNG10.png&ehk=%2f7%2ftghrL31GFpelB7DZvprao8IZHRvmhi0BpDsEAZgI%3d&risl=&pid=ImgRaw&r=0.png" width="4%" alt="Instagram"></a>
+        </p>
+    
+    </div>
+ 
+</body>
+</html>
